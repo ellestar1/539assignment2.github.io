@@ -1,0 +1,132 @@
+
+body {
+  margin: 0;
+  background-color: #AED6F1;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'PT Sans', sans-serif; 
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  grid-gap: 2%;
+  background-color: #AED6F1;
+  color: #d9534f;
+  align-items: start;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.box {
+	background-color: #ffffff;
+    font-family: Bungee, sans-serif;
+    font-size:18px;
+    padding: 20px;
+    border: 12px solid #1E88E5;
+  	border-radius: 12px;
+    color:#000000;
+}
+.greetings{
+	background-color: #1E88E5;
+	color: #ffffff;
+  	border-radius: 5px;
+  	padding: 20px;
+  	font-size: 150%;
+}
+#navigation li {
+  display: inline;   /* Make our navigation display in a line */
+  text-decoration: initial; /* remove underlines from linked words */
+}
+#thinghead {
+  /*clear: both;*/
+  margin: 0.5rem 0 0;
+  text-transform: uppercase;
+  font-family: 'Bungee', sans-serif;
+  font-size: 32px;
+}
+#doubleimage{
+	text-align: center;
+}
+body.bgimage{
+  background: blue;
+/*install a single background image for at least ONE page.*/
+}
+
+h3 {
+  color: #d9534f;
+}
+
+nav a {
+  text-decoration: initial;
+  color:#d9534f;
+
+}
+a:hover {
+  color: #000000;
+}
+li {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  color:#d9534f;
+}
+p {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  justify-content: space-between; 
+}
+
+footer, address, p.hours {
+  margin-top: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 14px;
+  color: #d9534f;
+}
+p.q_a2 {
+    font-family: Bungee, sans-serif;
+    font-size:18px;
+    color:#000000;
+}
+
+p.code_o {
+    font-family: 'Source Code Pro', monospace;
+    color:#000000;
+}
+
+img {
+	margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    display: block;
+    width: 150px;
+}
+.doubleimg {
+    display: inline-block;
+    width: 100px;
+    padding:10px;
+}
+
+@media only screen and (max-width: 767px)  {
+
+  body,
+  #sidebar {
+    font-size: 13px;
+  }
+
+  h1 {
+  	font-size: 26px;
+  }
+}
