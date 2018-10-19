@@ -1,13 +1,18 @@
 html {
   min-height: 100%;
+  background-color: #AED6F1;
+}
+.background {
+   background: url("../images/cardgames_bg.png");
 }
 
 body {
   margin: 0;
-  background-color: #AED6F1;
   color: rgba(255, 255, 255, 0.8);
-  font-family: 'PT Sans', sans-serif; 
+  font-family: 'PT Sans', sans-serif;
 }
+
+
 
 .wrapper {
   width: 100%;
@@ -51,9 +56,8 @@ body {
 #doubleimage{
 	text-align: center;
 }
-body.bgimage{
-  background: blue;
-/*install a single background image for at least ONE page.*/
+#image_wrap{
+	text-align: center;	
 }
 
 h2 {
@@ -62,7 +66,7 @@ h2 {
 
 nav a {
   text-decoration: initial;
-  color:#blue;
+  color:#156fbf;
 
 }
 a:hover {
@@ -72,8 +76,16 @@ li {
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
-  color:blue;
+  color:#156fbf;
 }
+
+.li2 {
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  color:#ffffff;
+}
+
 p {
     clear: both;
     font-family: Arial, Helvetica, sans-serif;
@@ -98,7 +110,7 @@ footer, address, p.hours {
 }
 p.q_a2 {
     font-family: Bungee, sans-serif;
-    font-size:18px;
+    font-size:20px;
     color:#000000;
 }
 
@@ -107,19 +119,74 @@ p.code_o {
     color:#000000;
 }
 
+ul{
+
+}
+
+.bordertown {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	border-style: solid;
+	border-width: thick;
+	color: #156fbf;
+}
+
+.bordertown_reverse {
+	width:57%;
+	border-style: solid;
+	border-width: thick;
+	color: #ffffff;
+}
+
 img {
 	margin-left: auto;
     margin-right: auto;
 }
+
 .center {
     display: block;
     width: 150px;
 }
+
+.center_jewels {
+    display: block;
+    width: 300px;
+}
+
+.center_teuber {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    padding:10px;
+}
+
+.center_teuber2 {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    padding:10px;
+}
+
 .doubleimg {
     display: inline-block;
     width: 100px;
     padding:10px;
+
 }
+
+.splendorbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin-left: 10%;
+}
+
+.overflow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+ }
 
 @media only screen and (max-width: 767px)  {
 
