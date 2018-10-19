@@ -26,12 +26,12 @@ body {
     font-family: Bungee, sans-serif;
     font-size:18px;
     padding: 20px;
-    border: 12px solid #137bd6;
+    border: 12px solid #156fbf;
   	border-radius: 12px;
     color:#000000;
 }
 .greetings{
-	background-color: #137bd6;
+	background-color: #156fbf;
 	color: #ffffff;
   	border-radius: 5px;
   	padding: 20px;
