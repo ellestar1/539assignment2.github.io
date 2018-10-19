@@ -155,20 +155,6 @@ img {
     width: 300px;
 }
 
-.center_teuber {
-    display: inline-block;
-    width: 40%;
-    vertical-align: middle;
-    padding:10px;
-}
-
-.center_teuber2 {
-    display: inline-block;
-    width: 20%;
-    vertical-align: middle;
-    padding:10px;
-}
-
 .doubleimg {
     display: inline-block;
     width: 100px;
