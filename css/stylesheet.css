@@ -12,8 +12,6 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-
-
 .wrapper {
   width: 100%;
   display: grid;
@@ -42,6 +40,12 @@ body {
   	padding: 20px;
   	font-size: 150%;
 }
+.aside{
+  	border-radius: 12px;
+  	color: #777777;
+  	padding: 20px;
+  	border: 12px solid #888888;
+}
 #navigation li {
   display: inline;   /* Make our navigation display in a line */
   text-decoration: initial; /* remove underlines from linked words */
@@ -60,8 +64,14 @@ body {
 	text-align: center;	
 }
 
+/*h1 {
+  color: #ffffff;
+  font-size: 26px;
+}*/
+
 h2 {
-  color: #000000;
+	text-indent: 2em;
+  	color: #000000;
 }
 
 nav a {
@@ -86,11 +96,13 @@ li {
   color:#ffffff;
   font-weight: bold;
 }
-
-p {
-    clear: both;
-    font-family: Arial, Helvetica, sans-serif;
+.li3{
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffffff;
+  font-weight: bold;	
 }
+
 header {
   background-color: #666;
   padding: 20px;
@@ -108,6 +120,19 @@ footer, address, p.hours {
   font-size: 14px;
   color: #000000;
   padding:10px;
+}
+index > p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+}
+index > p::first-letter{
+	display: inline-block;
+	font-size: 200%;
+    color: black;
+}
+p {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p.q_a2 {
     font-family: Bungee, sans-serif;
@@ -131,10 +156,19 @@ ul{
 	border-style: solid;
 	border-width: thick;
 	color: #156fbf;
+	padding:10px;
 }
 
 .bordertown_reverse {
 	width:57%;
+	border-style: solid;
+	border-width: thick;
+	color: #ffffff;
+}
+.bordertown_reverse_small {
+	display: inline-block;
+	width:47%;
+	vertical-align: middle;
 	border-style: solid;
 	border-width: thick;
 	color: #ffffff;
@@ -149,7 +183,11 @@ img {
     display: block;
     width: 150px;
 }
-
+.main_center {
+    display: block;
+    height: 400px;
+    padding:10px;
+}
 .center_jewels {
     display: block;
     width: 300px;
@@ -162,11 +200,12 @@ img {
 
 }
 
-.splendorbox {
+.game {
     display: inline-block;
     vertical-align: middle;
     width: 200px;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .overflow {
