@@ -42,7 +42,7 @@ body {
 }
 .aside{
   	border-radius: 12px;
-  	color: #666;
+  	color: #666666;
   	padding: 20px;
   	border: 12px solid #888888;
 }
@@ -76,7 +76,7 @@ h2 {
 
 nav a {
   text-decoration: initial;
-  color:#156fbf;
+  color:#0a10b1;
 
 }
 a:hover {
