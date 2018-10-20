@@ -42,7 +42,7 @@ body {
 }
 .aside{
   	border-radius: 12px;
-  	color: #777777;
+  	color: #666;
   	padding: 20px;
   	border: 12px solid #888888;
 }
@@ -139,7 +139,11 @@ p.q_a2 {
     font-size:20px;
     color:#000000;
 }
-
+p.white_head {
+    font-family: Bungee, sans-serif;
+    font-size:20px;
+    color:#ffffff;
+}
 p.code_o {
     font-family: 'Source Code Pro', monospace;
     color:#000000;
