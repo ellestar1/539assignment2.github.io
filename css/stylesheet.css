@@ -1,15 +1,23 @@
+*{
+	box-sizing: border-box;
+}
+
 html {
   min-height: 100%;
   background-color: #AED6F1;
 }
 .background {
    background: url("../images/cardgames_bg.png");
+   /*opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier
+   z-index: -1;*/
 }
 
 body {
   margin: 0;
   color: rgba(255, 255, 255, 0.8);
   font-family: 'PT Sans', sans-serif;
+  background-color: #add8e6;
 }
 
 .wrapper {
@@ -42,7 +50,7 @@ body {
 }
 .aside{
   	border-radius: 12px;
-  	color: #666666;
+  	color: #000000;
   	padding: 20px;
   	border: 12px solid #888888;
 }
@@ -123,7 +131,7 @@ footer, address, p.hours {
 }
 index > p{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #666;
+	color: #000000;
 }
 index > p::first-letter{
 	display: inline-block;
@@ -189,7 +197,7 @@ img {
 }
 .main_center {
     display: block;
-    height: 400px;
+    height: 300px;
     padding:10px;
 }
 .center_jewels {
